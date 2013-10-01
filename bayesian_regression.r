@@ -1,6 +1,6 @@
-setwd('/Users/michaelhsu/code/mini_project')
+# setwd('/Users/michaelhsu/code/mini_project')
 
-setup_data = read.csv('ldpa30_train.csv')
+setup_data = read.csv('data/ldpa30_train.csv')
 
 # further divide into two sets
 Set1 = subset(setup_data, week_index <= 270)
