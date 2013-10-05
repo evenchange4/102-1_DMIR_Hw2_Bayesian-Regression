@@ -1,7 +1,5 @@
 # Bayesian Regression with Normal-Gamma Prior
 
-102-1_DMIR_Hw2_Bayesian-Regression
-
 The Homework 2 report from NTU102-1 [DMIR](https://ceiba.ntu.edu.tw/course/99b512/index.htm) course
 
 **by NTU [Michael Hsu](http://michaelhsu.tw/ "blog")**
