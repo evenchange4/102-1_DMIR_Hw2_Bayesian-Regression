@@ -10,7 +10,13 @@ The Homework 2 report from NTU102-1 [DMIR](https://ceiba.ntu.edu.tw/course/99b51
 R cmd:
 
 ```
-source("/path_to/bayesian_regression.r")
+> source("/path_to/bayesian_regression.r")
+```
+
+example: （可用拖曳方式取得路徑）
+
+```
+> source("/Users/michaelhsu/Dropbox/15.\ 碩一上課業/02.\ DMIR\ 資料探勘與資訊檢 索/hw2/bayesian_regression.r")
 ```
 
 ## Result (plot the RMSE with respect to 𝜆)

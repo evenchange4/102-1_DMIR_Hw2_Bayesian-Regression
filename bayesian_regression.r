@@ -39,11 +39,11 @@ calculate_rmse <- function(lambda){
 }
 
 lambdas = seq(1, 30, by = 0.1)
-lambda_vector = c()
+rmse_vector = c()
 count = 1
 for(lambda in lambdas) {
-    lambda_vector[count] = calculate_rmse(lambda)
+    rmse_vector[count] = calculate_rmse(lambda)
     count = count + 1
 }
 
-plot(lambdas, lambda_vector, type = "l", col = "red")
+plot(lambdas, rmse_vector, type = "l", col = "red", xlab="lambda", ylab="rmse")
